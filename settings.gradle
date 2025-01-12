@@ -1,2 +1,5 @@
+
 rootProject.name = 'demo-micro'
+
+includeBuild 'eureka-server'
 
