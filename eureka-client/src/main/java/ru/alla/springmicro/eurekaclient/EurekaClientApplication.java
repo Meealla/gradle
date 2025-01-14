@@ -2,9 +2,10 @@ package ru.alla.springmicro.eurekaclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-//@EnableEurekaClient -----> устарела
+@EnableDiscoveryClient
 public class EurekaClientApplication {
 
 	public static void main(String[] args) {
